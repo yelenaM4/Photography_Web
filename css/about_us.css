@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+/*style the wrapper and h1 */
+#wrapper {
+  width: 60%;
+  margin: 20px auto;
+  background-color: rgb(199, 234, 247);
+  color: black;
+  padding: 20px;
+}
+
+/* style for labels */
+label {
+  width: 20%;
+  font-weight: bold;
+  padding: 3px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background:black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  outline: 2px solid black;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+/* Set a style for the submit button */
+.btns {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  margin-top: 3px;
+  height: 80px;
+}
+
+.btns:hover {
+  opacity: 1;
+}
+.aboutus {
+  text-align: center;
+  line-spacing: 10px;
+}
+.aboutus p{
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.aboutus h2{
+  font-family: 'Alex Brush', cursive;
+  font-size:50px;
+  text-shadow: 13px 13px 4px #666;
+  padding:20px;
+}
+.aboutus a {
+  text-decoration: none;
+  color:blue;
+}
+.mepic{
+  text-align: center;
+}
+.aboutus img{
+  height:200px;
+  width:200px;
+  position:relative
+}
+.aboutus .btn{
+  position: relative;
+  color:white;
+  padding:10px;
+  margin:40px;
+}

@@ -1,0 +1,57 @@
+.container{
+  margin-left:50px;
+}
+#div1, #div2, #div3, #div4, #div5, #div6, #div7 {
+  display: inline-block;
+  padding:50px;
+}
+.checked{
+  color:rgb(237, 212, 4);
+}
+
+.sec-review img{
+  height:250px;
+  width:250px;
+  filter: drop-shadow(10px 10px 10px rgb(156, 156, 156));
+  padding-bottom: 30px;
+}
+.sec-review h2{
+  font-family: 'Alex Brush', cursive;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 13px 13px 4px #666;
+  padding-bottom: 30px;
+}
+.btn {
+  text-decoration: none;
+  background-color: black;
+  color: #FFFFFF;
+  margin-top:10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #828282;
+  position:absolute;
+}
+
+.mapouter{
+  position:relative;
+  text-align:center;
+  height:600px;
+  width:800px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
+.map{
+  text-align: center;
+  padding-bottom:50px;
+}
+.map p{
+  font-family: 'Alex Brush', cursive;
+  font-size: 40px;
+  padding:30px;
+}

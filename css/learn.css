@@ -1,0 +1,133 @@
+
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.gallery-pic {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-left: 5%;
+  font-weight: bold;
+  position: relative;
+}
+.gallery-pic img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  opacity: 0.6;
+  border-radius: 25px;
+}
+.gallery-pic:hover img {
+  opacity: 1;
+  transition: opacity 3s ease-in-out;
+  transform: rotate(360deg);
+  width: 250px;
+  height: 250px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+figcaption{
+  position: absolute
+  bottom: 10%;
+  left: 30%;
+}
+
+.photography h2{
+  font-family: 'Alex Brush', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+.photo h2{
+  font-family: 'Alex Brush', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+.pic1beginner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.difference h3, .start h3, .triangle h3{
+  font-family: 'Alex Brush', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.sec-beginner{
+  background: linear-gradient(to left, rgba(141, 153, 190, 0.2), rgba(141, 153, 190, 0.8)),
+    url("../images/backdrop2.jpg") no-repeat;
+  background-size: cover;
+  line-spacing:50px;
+  word-spacing:5px;
+  font-weight: bold;
+}
+.difference img{
+  height:500px;
+  width:700px;
+  margin-top: 20px;
+}
+
+.start img{
+  height:400px;
+  width:700px;
+  margin-top: 20px;
+}
+.tirangle{
+  text-align: center;
+}
+.triangle iframe{
+  margin-left:30px;
+  margin-top:30px;
+}
+.sec-advance h3{
+  font-family: 'Alex Brush', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  text-shadow: 13px 13px 4px #666;
+}
+.sec-advance{
+  text-align: center;
+  margin: 50px;
+  line-spacing:50px;
+}
+.sec-advance iframe{
+  margin-top:30px;
+}
+iframe{
+  height:500px;
+  width:800px;
+}
+
+@media (max-width: 899px) {
+  iframe{
+    height:200px;
+    width:300px;
+  }
+  .beginner-videos{
+    margin-left: 10px;
+  }
+  .difference img{
+    height:200px;
+    width:300px;
+  }
+  .start img{
+    height:200px;
+    width:300px;
+  }
+}
+.sec-advance h4{
+  font-family: 'Alex Brush', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+  margin-bottom:20px;
+
+}
